@@ -1,0 +1,23 @@
+// Basic usage
+<FlashDiscount
+  discount={activeFlashDiscount}
+  onClose={handleCloseFlashDiscount}
+  onApplyDiscount={handleApplyDiscount}
+/>
+
+// With custom positioning
+<FlashDiscount
+  discount={activeFlashDiscount}
+  onClose={handleCloseFlashDiscount}
+  onApplyDiscount={handleApplyDiscount}
+  position="bottom-right"
+  autoClose={false}
+/>
+
+// Center modal style
+<FlashDiscount
+  discount={activeFlashDiscount}
+  onClose={handleCloseFlashDiscount}
+  onApplyDiscount={handleApplyDiscount}
+  position="center"
+/>
