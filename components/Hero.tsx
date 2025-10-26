@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
   const scrollEndTimeout = useRef<NodeJS.Timeout | null>(null);
 
   const ANIMATION_DURATION = 500;
-  const API_URL = process.env.NEXT_PUBLIC_IMAGE_URL || "http://localhost:3009";
+  const API_URL = process.env.NEXT_PUBLIC_IMAGE_URL || "https://ecom-xzeny-backend.onrender.com";
 
   const getImageUrl = (path: string) => {
     if (!path) return "/no-image.png";

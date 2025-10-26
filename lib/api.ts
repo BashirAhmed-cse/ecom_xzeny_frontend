@@ -5,7 +5,7 @@ import { useAuth } from '@clerk/nextjs';
 // --------------------
 // 🌐 Base API URL
 // --------------------
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3009/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://ecom-xzeny-backend.onrender.com/api';
 
 // --------------------
 // 🧩 Type Definitions

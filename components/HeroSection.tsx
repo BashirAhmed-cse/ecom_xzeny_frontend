@@ -80,7 +80,7 @@ const HeroSection = forwardRef<HTMLDivElement, HeroSectionProps>(
 
     const swipeThreshold = isMobile ? 60 : 80;
 // Add this constant at the top of your HeroSection component, after the imports
-const API_URL = process.env.NEXT_PUBLIC_IMAGE_URL || "http://localhost:3009";
+const API_URL = process.env.NEXT_PUBLIC_IMAGE_URL || "https://ecom-xzeny-backend.onrender.com";
     const imageSrc =
       imageError || !currentProduct.images?.[currentImageIndex]
         ? "/images/fallback-shoe.png"

@@ -12,8 +12,8 @@ import { useTheme } from "@/lib/ThemeProvider";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import FlashDiscount from "@/components/FlashDiscount";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:3009/api";
-const IMG_API_URL = process.env.NEXT_PUBLIC_IMAGE_URL || "http://localhost:3009";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "https://ecom-xzeny-backend.onrender.com/api";
+const IMG_API_URL = process.env.NEXT_PUBLIC_IMAGE_URL || "https://ecom-xzeny-backend.onrender.com";
 
 interface PageProps {
   params: Promise<{
